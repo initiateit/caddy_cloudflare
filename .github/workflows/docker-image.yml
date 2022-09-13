@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: Push the Docker image
-      run: docker login -u initiateit -p ${{ secrets.DOCKER_TOKEN }} && docker push initiateit/caddy_cloudflare:latest
+      run: docker login -u initiateit -p ${{ secrets.DOCKERHUB_TOKEN }} && docker push initiateit/caddy_cloudflare:latest
