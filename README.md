@@ -1,5 +1,6 @@
 # caddy_cloudflare
-Caddy built with cloudflare DNS challenge module
+This repo contains dockerfiles for Caddy built with cloudflare DNS challenge module.
+I host this on github to use the actions feature to automatically build the dockerfile when I am notified of upstream changes.
 
 ## What Is It?
 This is just the base image of caddy (https://hub.docker.com/_/caddy) with the cloudflare dns modules built in.
